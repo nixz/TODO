@@ -3,10 +3,6 @@
 
 2017
 * Daily
-** DONE Send Amy the videos of Collaboration
-   - State "CURRENT"    from "TODO"       [2017-03-29 Wed 10:41] \\
-     We took videos of the collaboration work during mechdyne visit. I sent those
-     to the group
 ** CURRENT Put color into Masa dataset
    - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:57] \\
      Ther are many documetns that show the color. What I will do now is simply take
@@ -18,10 +14,23 @@
 ** TODO Wait for the responce from seller about objection document
 ** TODO [#B] Complete Tax Documents
 ** TODO Put dishes back in closet
-** TODO Put clothes in drier
 ** TODO Fold the clothes
 ** TODO [#A] Time Management
-** DONE [#A] Team work
+** TODO [#B] Schedule meeting with Dimitri and team
+** TODO [#C] Schedule meeting with Masa and team
+** TODO [#A] Talk to the lady in computer science and get admission process
+** TODO [#B] Collect course work
+** TODO Setup Tracking on all master nodes
+** TODO Load the larger masa dataset into the software and test
+** TODO Make VTK VRUI work in CAVE and tiled wall
+** TODO Ask Jared for minutes of last meeting
+** TODO Talk to EJ about training and Indian thing on time
+** TODO Work on using google one to synchronize between documents
+** TODO Transfer money from chase to uniwyo
+** TODO Transfer money to Mariwati
+* April
+** Soft Skills
+*** DONE [#A] Team work
    - State "DONE"       from "CURRENT"    [2017-04-03 Mon 02:12] \\
      The session is done. Talk about it in the team meeting tomorrow
    - State "CURRENT"    from "TODO"       [2017-04-03 Mon 00:36] \\
@@ -178,19 +187,10 @@
      *** Group Creativity
      
      ** Team Leadership
-** TODO [#B] Schedule meeting with Dimitri and team
-** TODO [#C] Schedule meeting with Masa and team
-** TODO [#A] Talk to the lady in computer science and get admission process
-** TODO [#B] Collect course work
-** TODO Setup Tracking on all master nodes
-** TODO Load the larger masa dataset into the software and test
-** TODO Make VTK VRUI work in CAVE and tiled wall
-** TODO [#A] Submit time sheet
-** TODO Ask Jared for minutes of last meeting
-** TODO Talk to EJ about training and Indian thing on time
-** TODO setup org-mobile-todo mode
-* April
-** Soft Skills
+*** DONE Install org-mobile-todo mode
+*** DONE [#A] Submit time sheet
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 08:12] \\
+     There were no leaves on this week
 ** PhD Admission
 ** VueNix
 ** House Purchase
@@ -199,11 +199,16 @@
 *** DONE Sign the objection document
 
 ** HOME
+*** DONE Put clothes in drier
 *** DONE Clean and throw out garbage
 *** DONE Put the shoes back in closet
 *** DONE Put clothes for wash
 *** DONE Wash the dishes
 * March
+** DONE Send Amy the videos of Collaboration
+   - State "CURRENT"    from "TODO"       [2017-03-29 Wed 10:41] \\
+     We took videos of the collaboration work during mechdyne visit. I sent those
+     to the group
 ** DONE VueNix
 *** DONE Configure Tiled Walls
 *** DONE Setup PetaLibrary

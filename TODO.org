@@ -11,44 +11,204 @@
    - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:57] \\
      Ther are many documetns that show the color. What I will do now is simply take
      one file and try to fill in the color
-** DONE Get the signature of Anju for bank document
-** DONE House Inspectino
-   - State "DONE"       from "WAIT"       [2017-04-02 Sun 16:52]
-   - State "WAIT"       from "CURRENT"    [2017-04-02 Sun 16:52]
-   - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:52]
-** DONE Sign the objection document
-   - State "DONE"       from "WAIT"       [2017-04-02 Sun 16:52]
-   - State "WAIT"       from "CURRENT"    [2017-04-02 Sun 16:52]
-   - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:51]
-** TODO Search for house insurance
-** TODO Get the documents filled out properly for Mortgage source
-** TODO Send Anju signature to Mortgage source
-** TODO Mortgage Source schedule evaluation
+** TODO [#A] Search for house insurance
+** TODO [#A] Get the documents filled out properly for Mortgage source
+** TODO [#A] Send Anju signature to Mortgage source
+** TODO [#A] Mortgage Source schedule evaluation
 ** TODO Wait for the responce from seller about objection document
-** TODO Complete Tax Documents
-** TODO Wash the dishes
-** TODO Put clothes for wash
+** TODO [#B] Complete Tax Documents
+** TODO Put dishes back in closet
+** TODO Put clothes in drier
 ** TODO Fold the clothes
-** TODO Clean and throw out garbage
-** TODO Put the shoes back in closet
-
+** TODO [#A] Time Management
+** DONE [#A] Team work
+   - State "DONE"       from "CURRENT"    [2017-04-03 Mon 02:12] \\
+     The session is done. Talk about it in the team meeting tomorrow
+   - State "CURRENT"    from "TODO"       [2017-04-03 Mon 00:36] \\
+     * Introduction
+       Briefly talks about what all the different seciont are about. Basically
+       about teambuilding and team dynamics 
+     ** Becoming a Cohesive Team
+        - Power is in the stucture of the team
+        - Manager makes decissions 
+        - Employees do the work
+        - Everybody is expected to assist in decission making
+        - Main motivation (paycheck)
+     *** Department sturucture vs team structure
+        - Department
+          decission by manager
+          accountability (each worker to manager)
+          work assignments (by manager)
+          Motivation (by Paycheck)
+        - Team
+          Decission (by team members)
+          accountability (each member of team)
+          Work Assignments (by team members)
+          Motivation (by goal and accomplishments)
+     *** Teams are successful when personalities and skills match
+     *** Performance Challenge for the team (Goal)
+     *** Mission Statement
+         - why the team exists
+         - what it needs to accomplish
+         - how it fits into the broader company misison
+     *** Performance Goals
+         - Break it down
+         - Challenging
+         - Include time frame
+         - Attainable
+     *** Measuring Success
+         - Simple and Easy to understand
+         - Target specific actions and capabilities that contribute to bottom-line
+           results
+         - Process Measures
+           - Interim steps or accomplishments
+           - ensure team is on track with goals
+           - meaningful and honest
+           - results processed and 
+     *** Team guidelines and procedures     
+         - Job Clarity 
+         - Skills Development
+     
+     *** Creating a positive attitude
+     *** Beware of negative attitude
+     *** Trust
+         - Build trust by giving team members benefit of doubt 
+         - Believe their ideas are rational
+         - Support them
+         - Be interested in their success
+     *** Getting them to trust you
+         - Be honest
+         - Live up to your commitments
+         - Conduct youself professionally
+         - Do your job well
+         - Help an overworked team member
+         - Present reliable information
+         - Support team decissions to outsiders
+         - Be open to new ideas
+         - Share the glory
+         - Keep team spirit in hard times
+     *** Building relationships
+         - Spend time together
+         - Successful teams find ways to spend extra time together
+         - When teams dont spend time together, trust, respect and productivity
+           suffer.
+         - show patience, tolerance and diplomacy
+     *** Motivation
+         - Create a team identity
+         - Give a name and communicate your mission
+         - Post team information 
+         - Celebrate milestones
+     *** Skill development
+         - Find team members who can coach others.
+         - Create a team resource library
+     
+     ** Communicating with team members
+     *** Listening
+         - We listen best to strangers
+         - Give team members the same respect you give strangers
+         - Active Listening (undivided attention , paraphrase key points and
+           reflect back)
+     *** Giving Feedback
+         - Citique the project not the person
+         - Begin with a question
+         - State purpose of feedback
+         - Give specific and clear feedback
+         - Listen for response
+         - Ask questions
+         - Clear up misunderstandings
+         - Restate your purpose
+         - Summarise the feedback
+     *** Receiving Feedback
+         - Listen Carefully
+         - Identify performance issues
+         - Dont interrupt
+         - Paraphrase whats being said
+         - Asks for specifics
+         - Restate the points in your own words
+         - Share your views
+         - Explain behavior
+         - Discuss improvements
+         - Make a commitment to improve
+         
+     ** Resolving Conflict
+     *** Expect conflict
+     **** Warning signs
+          - Members avoid each other
+          - Members feel blocked
+          - Subgroups form
+          - Excessive Competition
+          - Backbiting and gossiping
+          - Open displays of animosity
+     **** Good / Bad conflict
+          - Respect for different point of views
+          - Mutally suppportive
+          - Open Communication
+          - Dont take negative statemetns personally
+          - Use feedback to get positive results
+          - People viewed as adverserries (-ve)
+          - Self-centerdness (-ve)
+          - Self-preservation (-ve)
+          - Excessive Competition (-ve)
+     *** Understing diverse roles
+         - Colalborator
+         - Knowledge Contributor
+         - People Supporter
+         - Challenger
+     *** Dealing with problem personalities
+         - Knowledge withholders
+         - Quiet team members
+         - Dominators
+     ** Team Meetings
+     *** Reasons to meet
+         - To solve problems
+         - To make decissions that affect the team
+         - To complete group work
+     *** Conducting the meeting
+         - Meet on time
+         - Review agenda
+         - Follow the agenda
+         - End on time
+         - Avoid disruptions
+     *** Preparing for the meeting
+         - Accessible
+         - Enough Space
+         - Good Lighting
+         - Good Ventilation
+         - Free from distractions
+     *** Group Creativity
+     
+     ** Team Leadership
+** TODO [#B] Schedule meeting with Dimitri and team
+** TODO [#C] Schedule meeting with Masa and team
+** TODO [#A] Talk to the lady in computer science and get admission process
+** TODO [#B] Collect course work
+** TODO Setup Tracking on all master nodes
+** TODO Load the larger masa dataset into the software and test
+** TODO Make VTK VRUI work in CAVE and tiled wall
+** TODO [#A] Submit time sheet
+** TODO Ask Jared for minutes of last meeting
+** TODO Talk to EJ about training and Indian thing on time
+** TODO setup org-mobile-todo mode
 * April
-** TODO Performance plan
-*** TODO Time Management
-*** TODO Team wor
+** Soft Skills
+** PhD Admission
+** VueNix
+** House Purchase
+*** DONE Get the signature of Anju for bank document
+*** DONE House Inspectino
+*** DONE Sign the objection document
 
+** HOME
+*** DONE Clean and throw out garbage
+*** DONE Put the shoes back in closet
+*** DONE Put clothes for wash
+*** DONE Wash the dishes
 * March
-** TODO PhD Admission
-*** TODO Talk to the lady in computer science and get admission process
-*** TODO Collect course work
-** TODO VueNix
+** DONE VueNix
 *** DONE Configure Tiled Walls
 *** DONE Setup PetaLibrary
-*** TODO Setup the Configuration 
-*** TODO Setup Tracking on all master nodes
-*** TODO Load the larger masa dataset into the software and test
-*** TODO Make VTK VRUI work in CAVE and tiled wall
-** TODO Performance document
+*** DONE Setup the Configuration  on  diplayc
+** DONE Performance document
 *** DONE Stress
 * FEB
 ** TODO send the document to EJ about grant

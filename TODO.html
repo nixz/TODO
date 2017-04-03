@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-04-02 Sun 23:51 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="nshetty" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline17">1. Daily</a>
+<ul>
+<li><a href="#orgheadline1">1.1. <span class="done DONE">DONE</span> Send Amy the videos of Collaboration</a></li>
+<li><a href="#orgheadline2">1.2. <span class="todo CURRENT">CURRENT</span> Put color into Masa dataset</a></li>
+<li><a href="#orgheadline3">1.3. <span class="done DONE">DONE</span> Get the signature of Anju for bank document</a></li>
+<li><a href="#orgheadline4">1.4. <span class="done DONE">DONE</span> House Inspectino</a></li>
+<li><a href="#orgheadline5">1.5. <span class="done DONE">DONE</span> Sign the objection document</a></li>
+<li><a href="#orgheadline6">1.6. <span class="todo TODO">TODO</span> Search for house insurance</a></li>
+<li><a href="#orgheadline7">1.7. <span class="todo TODO">TODO</span> Get the documents filled out properly for Mortgage source</a></li>
+<li><a href="#orgheadline8">1.8. <span class="todo TODO">TODO</span> Send Anju signature to Mortgage source</a></li>
+<li><a href="#orgheadline9">1.9. <span class="todo TODO">TODO</span> Mortgage Source schedule evaluation</a></li>
+<li><a href="#orgheadline10">1.10. <span class="todo TODO">TODO</span> Wait for the responce from seller about objection document</a></li>
+<li><a href="#orgheadline11">1.11. <span class="todo TODO">TODO</span> Complete Tax Documents</a></li>
+<li><a href="#orgheadline12">1.12. <span class="todo TODO">TODO</span> Wash the dishes</a></li>
+<li><a href="#orgheadline13">1.13. <span class="todo TODO">TODO</span> Put clothes for wash</a></li>
+<li><a href="#orgheadline14">1.14. <span class="todo TODO">TODO</span> Fold the clothes</a></li>
+<li><a href="#orgheadline15">1.15. <span class="todo TODO">TODO</span> Clean and throw out garbage</a></li>
+<li><a href="#orgheadline16">1.16. <span class="todo TODO">TODO</span> Put the shoes back in closet</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline21">2. April</a>
+<ul>
+<li><a href="#orgheadline20">2.1. <span class="todo TODO">TODO</span> Performance plan</a>
+<ul>
+<li><a href="#orgheadline18">2.1.1. <span class="todo TODO">TODO</span> Time Management</a></li>
+<li><a href="#orgheadline19">2.1.2. <span class="todo TODO">TODO</span> Team wor</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline34">3. March</a>
+<ul>
+<li><a href="#orgheadline24">3.1. <span class="todo TODO">TODO</span> PhD Admission</a>
+<ul>
+<li><a href="#orgheadline22">3.1.1. <span class="todo TODO">TODO</span> Talk to the lady in computer science and get admission process</a></li>
+<li><a href="#orgheadline23">3.1.2. <span class="todo TODO">TODO</span> Collect course work</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline31">3.2. <span class="todo TODO">TODO</span> VueNix</a>
+<ul>
+<li><a href="#orgheadline25">3.2.1. <span class="done DONE">DONE</span> Configure Tiled Walls</a></li>
+<li><a href="#orgheadline26">3.2.2. <span class="done DONE">DONE</span> Setup PetaLibrary</a></li>
+<li><a href="#orgheadline27">3.2.3. <span class="todo TODO">TODO</span> Setup the Configuration</a></li>
+<li><a href="#orgheadline28">3.2.4. <span class="todo TODO">TODO</span> Setup Tracking on all master nodes</a></li>
+<li><a href="#orgheadline29">3.2.5. <span class="todo TODO">TODO</span> Load the larger masa dataset into the software and test</a></li>
+<li><a href="#orgheadline30">3.2.6. <span class="todo TODO">TODO</span> Make VTK VRUI work in CAVE and tiled wall</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline33">3.3. <span class="todo TODO">TODO</span> Performance document</a>
+<ul>
+<li><a href="#orgheadline32">3.3.1. <span class="done DONE">DONE</span> Stress</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline42">4. FEB</a>
+<ul>
+<li><a href="#orgheadline35">4.1. <span class="todo TODO">TODO</span> send the document to EJ about grant</a></li>
+<li><a href="#orgheadline36">4.2. <span class="todo TODO">TODO</span> make schedule for guitar everyday</a></li>
+<li><a href="#orgheadline37">4.3. <span class="todo TODO">TODO</span> make schedule for painting everyday</a></li>
+<li><a href="#orgheadline38">4.4. <span class="done DONE">DONE</span> Meet Katie and discuss meditation and her life</a></li>
+<li><a href="#orgheadline39">4.5. Contact the committee personally and setup meeting</a></li>
+<li><a href="#orgheadline40">4.6. Replace vtkMolecule with own class</a></li>
+<li><a href="#orgheadline41">4.7. Replace vtkCMLMoleculeReader with own class</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline55">5. March</a>
+<ul>
+<li><a href="#orgheadline43">5.1. <span class="done DONE">DONE</span> Proctered VR class exam for Amy Banic</a></li>
+<li><a href="#orgheadline44">5.2. <span class="done DONE">DONE</span> Help Grant Bowman with bringing in data</a></li>
+<li><a href="#orgheadline45">5.3. <span class="done DONE">DONE</span> Check with Amy about class coming in</a></li>
+<li><a href="#orgheadline46">5.4. <span class="done DONE">DONE</span> Get the tution waiver for Mobile Computing</a></li>
+<li><a href="#orgheadline47">5.5. <span class="todo TODO">TODO</span> VRPN-client for common lisp</a></li>
+<li><a href="#orgheadline48">5.6. <span class="done DONE">DONE</span> Introduce Masa masters thesis to CFD group</a></li>
+<li><a href="#orgheadline49">5.7. <span class="done DONE">DONE</span> Get CFD group to use tech viz</a></li>
+<li><a href="#orgheadline50">5.8. <span class="todo TODO">TODO</span> Write CEPL for CAVE</a></li>
+<li><a href="#orgheadline51">5.9. <span class="todo TODO">TODO</span> Compile latest CEPL on mac</a></li>
+<li><a href="#orgheadline52">5.10. <span class="todo WAIT">WAIT</span> Get a working DEVIL library on mac</a></li>
+<li><a href="#orgheadline53">5.11. <span class="done DONE">DONE</span> Get rid of additional tution fees</a></li>
+<li><a href="#orgheadline54">5.12. <span class="done DONE">DONE</span> Set up meeting with Carrie</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline56">6. <span class="todo WAIT">WAIT</span> Make a simple swig flag to generate packages</a></li>
+<li><a href="#orgheadline57">7. <span class="todo TODO">TODO</span> Make asdf file and write to it</a></li>
+<li><a href="#orgheadline58">8. <span class="todo TODO">TODO</span> Make package file and write to it</a></li>
+<li><a href="#orgheadline59">9. <span class="todo TODO">TODO</span> Make library file and write to is</a></li>
+<li><a href="#orgheadline60">10. <span class="todo TODO">TODO</span> Commit swig package generation to swig project</a></li>
+<li><a href="#orgheadline65">11. April</a>
+<ul>
+<li><a href="#orgheadline61">11.1. </a></li>
+<li><a href="#orgheadline62">11.2. <span class="todo WAIT">WAIT</span> DONE name vote</a></li>
+<li><a href="#orgheadline63">11.3. <span class="done CANCELED">CANCELED</span> Install rifts in the touch screens</a></li>
+<li><a href="#orgheadline64">11.4. <span class="todo WAIT">WAIT</span> Request quote for Middle VR.</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+2017
+</p>
+<div id="outline-container-orgheadline17" class="outline-2">
+<h2 id="orgheadline17"><span class="section-number-2">1</span> Daily</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgheadline1" class="outline-3">
+<h3 id="orgheadline1"><span class="section-number-3">1.1</span> <span class="done DONE">DONE</span> Send Amy the videos of Collaboration</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2017-03-29 Wed 10:41] </span></span> <br  />
+We took videos of the collaboration work during mechdyne visit. I sent those
+to the group</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2"><span class="section-number-3">1.2</span> <span class="todo CURRENT">CURRENT</span> Put color into Masa dataset</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2017-04-02 Sun 16:57] </span></span> <br  />
+Ther are many documetns that show the color. What I will do now is simply take
+one file and try to fill in the color</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="orgheadline3"><span class="section-number-3">1.3</span> <span class="done DONE">DONE</span> Get the signature of Anju for bank document</h3>
+</div>
+<div id="outline-container-orgheadline4" class="outline-3">
+<h3 id="orgheadline4"><span class="section-number-3">1.4</span> <span class="done DONE">DONE</span> House Inspectino</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2017-04-02 Sun 16:52]</span></span></li>
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2017-04-02 Sun 16:52]</span></span></li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2017-04-02 Sun 16:52]</span></span></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline5" class="outline-3">
+<h3 id="orgheadline5"><span class="section-number-3">1.5</span> <span class="done DONE">DONE</span> Sign the objection document</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2017-04-02 Sun 16:52]</span></span></li>
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2017-04-02 Sun 16:52]</span></span></li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2017-04-02 Sun 16:51]</span></span></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline6" class="outline-3">
+<h3 id="orgheadline6"><span class="section-number-3">1.6</span> <span class="todo TODO">TODO</span> Search for house insurance</h3>
+</div>
+<div id="outline-container-orgheadline7" class="outline-3">
+<h3 id="orgheadline7"><span class="section-number-3">1.7</span> <span class="todo TODO">TODO</span> Get the documents filled out properly for Mortgage source</h3>
+</div>
+<div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8"><span class="section-number-3">1.8</span> <span class="todo TODO">TODO</span> Send Anju signature to Mortgage source</h3>
+</div>
+<div id="outline-container-orgheadline9" class="outline-3">
+<h3 id="orgheadline9"><span class="section-number-3">1.9</span> <span class="todo TODO">TODO</span> Mortgage Source schedule evaluation</h3>
+</div>
+<div id="outline-container-orgheadline10" class="outline-3">
+<h3 id="orgheadline10"><span class="section-number-3">1.10</span> <span class="todo TODO">TODO</span> Wait for the responce from seller about objection document</h3>
+</div>
+<div id="outline-container-orgheadline11" class="outline-3">
+<h3 id="orgheadline11"><span class="section-number-3">1.11</span> <span class="todo TODO">TODO</span> Complete Tax Documents</h3>
+</div>
+<div id="outline-container-orgheadline12" class="outline-3">
+<h3 id="orgheadline12"><span class="section-number-3">1.12</span> <span class="todo TODO">TODO</span> Wash the dishes</h3>
+</div>
+<div id="outline-container-orgheadline13" class="outline-3">
+<h3 id="orgheadline13"><span class="section-number-3">1.13</span> <span class="todo TODO">TODO</span> Put clothes for wash</h3>
+</div>
+<div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14"><span class="section-number-3">1.14</span> <span class="todo TODO">TODO</span> Fold the clothes</h3>
+</div>
+<div id="outline-container-orgheadline15" class="outline-3">
+<h3 id="orgheadline15"><span class="section-number-3">1.15</span> <span class="todo TODO">TODO</span> Clean and throw out garbage</h3>
+</div>
+<div id="outline-container-orgheadline16" class="outline-3">
+<h3 id="orgheadline16"><span class="section-number-3">1.16</span> <span class="todo TODO">TODO</span> Put the shoes back in closet</h3>
+</div>
+</div>
+
+<div id="outline-container-orgheadline21" class="outline-2">
+<h2 id="orgheadline21"><span class="section-number-2">2</span> April</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-orgheadline20" class="outline-3">
+<h3 id="orgheadline20"><span class="section-number-3">2.1</span> <span class="todo TODO">TODO</span> Performance plan</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-orgheadline18" class="outline-4">
+<h4 id="orgheadline18"><span class="section-number-4">2.1.1</span> <span class="todo TODO">TODO</span> Time Management</h4>
+</div>
+<div id="outline-container-orgheadline19" class="outline-4">
+<h4 id="orgheadline19"><span class="section-number-4">2.1.2</span> <span class="todo TODO">TODO</span> Team wor</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline34" class="outline-2">
+<h2 id="orgheadline34"><span class="section-number-2">3</span> March</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-orgheadline24" class="outline-3">
+<h3 id="orgheadline24"><span class="section-number-3">3.1</span> <span class="todo TODO">TODO</span> PhD Admission</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-orgheadline22" class="outline-4">
+<h4 id="orgheadline22"><span class="section-number-4">3.1.1</span> <span class="todo TODO">TODO</span> Talk to the lady in computer science and get admission process</h4>
+</div>
+<div id="outline-container-orgheadline23" class="outline-4">
+<h4 id="orgheadline23"><span class="section-number-4">3.1.2</span> <span class="todo TODO">TODO</span> Collect course work</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline31" class="outline-3">
+<h3 id="orgheadline31"><span class="section-number-3">3.2</span> <span class="todo TODO">TODO</span> VueNix</h3>
+<div class="outline-text-3" id="text-3-2">
+</div><div id="outline-container-orgheadline25" class="outline-4">
+<h4 id="orgheadline25"><span class="section-number-4">3.2.1</span> <span class="done DONE">DONE</span> Configure Tiled Walls</h4>
+</div>
+<div id="outline-container-orgheadline26" class="outline-4">
+<h4 id="orgheadline26"><span class="section-number-4">3.2.2</span> <span class="done DONE">DONE</span> Setup PetaLibrary</h4>
+</div>
+<div id="outline-container-orgheadline27" class="outline-4">
+<h4 id="orgheadline27"><span class="section-number-4">3.2.3</span> <span class="todo TODO">TODO</span> Setup the Configuration</h4>
+</div>
+<div id="outline-container-orgheadline28" class="outline-4">
+<h4 id="orgheadline28"><span class="section-number-4">3.2.4</span> <span class="todo TODO">TODO</span> Setup Tracking on all master nodes</h4>
+</div>
+<div id="outline-container-orgheadline29" class="outline-4">
+<h4 id="orgheadline29"><span class="section-number-4">3.2.5</span> <span class="todo TODO">TODO</span> Load the larger masa dataset into the software and test</h4>
+</div>
+<div id="outline-container-orgheadline30" class="outline-4">
+<h4 id="orgheadline30"><span class="section-number-4">3.2.6</span> <span class="todo TODO">TODO</span> Make VTK VRUI work in CAVE and tiled wall</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline33" class="outline-3">
+<h3 id="orgheadline33"><span class="section-number-3">3.3</span> <span class="todo TODO">TODO</span> Performance document</h3>
+<div class="outline-text-3" id="text-3-3">
+</div><div id="outline-container-orgheadline32" class="outline-4">
+<h4 id="orgheadline32"><span class="section-number-4">3.3.1</span> <span class="done DONE">DONE</span> Stress</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline42" class="outline-2">
+<h2 id="orgheadline42"><span class="section-number-2">4</span> FEB</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-orgheadline35" class="outline-3">
+<h3 id="orgheadline35"><span class="section-number-3">4.1</span> <span class="todo TODO">TODO</span> send the document to EJ about grant</h3>
+</div>
+<div id="outline-container-orgheadline36" class="outline-3">
+<h3 id="orgheadline36"><span class="section-number-3">4.2</span> <span class="todo TODO">TODO</span> make schedule for guitar everyday</h3>
+</div>
+<div id="outline-container-orgheadline37" class="outline-3">
+<h3 id="orgheadline37"><span class="section-number-3">4.3</span> <span class="todo TODO">TODO</span> make schedule for painting everyday</h3>
+</div>
+<div id="outline-container-orgheadline38" class="outline-3">
+<h3 id="orgheadline38"><span class="section-number-3">4.4</span> <span class="done DONE">DONE</span> Meet Katie and discuss meditation and her life</h3>
+</div>
+<div id="outline-container-orgheadline39" class="outline-3">
+<h3 id="orgheadline39"><span class="section-number-3">4.5</span> Contact the committee personally and setup meeting</h3>
+<div class="outline-text-3" id="text-4-5">
+<ul class="org-ul">
+<li>Carolina .</li>
+<li>Dirk .</li>
+<li>Jan .</li>
+<li>James .</li>
+<li>Jared</li>
+<li>EJ</li>
+<li>Amy .</li>
+<li>Simon</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline40" class="outline-3">
+<h3 id="orgheadline40"><span class="section-number-3">4.6</span> Replace vtkMolecule with own class</h3>
+</div>
+<div id="outline-container-orgheadline41" class="outline-3">
+<h3 id="orgheadline41"><span class="section-number-3">4.7</span> Replace vtkCMLMoleculeReader with own class</h3>
+<div class="outline-text-3" id="text-4-7">
+<p>
+2016
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline55" class="outline-2">
+<h2 id="orgheadline55"><span class="section-number-2">5</span> March</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-orgheadline43" class="outline-3">
+<h3 id="orgheadline43"><span class="section-number-3">5.1</span> <span class="done DONE">DONE</span> Proctered VR class exam for Amy Banic</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-23 Wed 09:12] </span></span> <br  />
+Amy was at a conference and I had to procter her exam. Print out the answers
+into a pdf and send it to her.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline44" class="outline-3">
+<h3 id="orgheadline44"><span class="section-number-3">5.2</span> <span class="done DONE">DONE</span> Help Grant Bowman with bringing in data</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-24 Thu 15:17] </span></span> <br  />
+Class is coming in on March 29'th monday</li>
+</ul>
+<ul class="org-ul">
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-23 Wed 11:40] </span></span> <br  />
+Waiting for class to come in and make the changes to CAVE before class</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-23 Wed 11:38] </span></span> <br  />
+Helping him get all his datasets on the machine. It seems like the CAVE is as
+a little different. Maybe there is something wrong with the versioning. Also
+the command to start vmd is lost from history (due to Angela using the
+cave). So I had to go the Bills site and get the comand again.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline45" class="outline-3">
+<h3 id="orgheadline45"><span class="section-number-3">5.3</span> <span class="done DONE">DONE</span> Check with Amy about class coming in</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-24 Thu 15:18] </span></span> <br  />
+Amys class is coming in on March 29 Tuesday</li>
+</ul>
+<ul class="org-ul">
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-23 Wed 11:37] </span></span> <br  />
+wating for confirmation from amy</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline46" class="outline-3">
+<h3 id="orgheadline46"><span class="section-number-3">5.4</span> <span class="done DONE">DONE</span> Get the tution waiver for Mobile Computing</h3>
+<div class="outline-text-3" id="text-5-4">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 11:47] </span></span> <br  />
+The tution waiver is here but the amount is still high</li>
+</ul>
+<ul class="org-ul">
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-23 Wed 11:42] </span></span> <br  />
+Waiting for Kira Poulson from HR to update Accounts recievable. Then I have to
+put update pay the remaining amount</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline47" class="outline-3">
+<h3 id="orgheadline47"><span class="section-number-3">5.5</span> <span class="todo TODO">TODO</span> VRPN-client for common lisp</h3>
+<div class="outline-text-3" id="text-5-5">
+<ul class="org-ul">
+<li>State "TODO"       from ""           <span class="timestamp-wrapper"><span class="timestamp">[2016-03-04 Fri 15:34] </span></span> <br  />
+Make VRPN client for common lisp</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline48" class="outline-3">
+<h3 id="orgheadline48"><span class="section-number-3">5.6</span> <span class="done DONE">DONE</span> Introduce Masa masters thesis to CFD group</h3>
+<div class="outline-text-3" id="text-5-6">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-04-05 Tue 19:07] </span></span> <br  />
+They didnt seem to want that. They were looking for higherdimentional
+plotting. Volume rendering seems to be more accurate for that.</li>
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-24 Thu 14:08] </span></span> <br  />
+Waiting for a response from Matt</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-24 Thu 14:07] </span></span> <br  />
+The cdf group had asked if I can do some data assimilation for them. I think
+masa has already done something wrt this and I send them his work.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline49" class="outline-3">
+<h3 id="orgheadline49"><span class="section-number-3">5.7</span> <span class="done DONE">DONE</span> Get CFD group to use tech viz</h3>
+<div class="outline-text-3" id="text-5-7">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 11:48] </span></span> <br  />
+Asked Josh to set up time with Matt for FV test</li>
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-24 Thu 14:09] </span></span> <br  />
+Wrote email to Matt and waiting for response</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline50" class="outline-3">
+<h3 id="orgheadline50"><span class="section-number-3">5.8</span> <span class="todo TODO">TODO</span> Write CEPL for CAVE</h3>
+</div>
+<div id="outline-container-orgheadline51" class="outline-3">
+<h3 id="orgheadline51"><span class="section-number-3">5.9</span> <span class="todo TODO">TODO</span> Compile latest CEPL on mac</h3>
+</div>
+<div id="outline-container-orgheadline52" class="outline-3">
+<h3 id="orgheadline52"><span class="section-number-3">5.10</span> <span class="todo WAIT">WAIT</span> Get a working DEVIL library on mac</h3>
+<div class="outline-text-3" id="text-5-10">
+<ul class="org-ul">
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 12:38] </span></span> <br  />
+This seems to a huge problem with brew. I might have to do this by myself. The
+idea will be to build everything from scratch</li>
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 11:56] </span></span> <br  />
+Error opening shared object "/usr/local/Cellar/devil/1.7.8<sub>1</sub>/lib/libIL.dylib":
+  dlopen(/usr/local/Cellar/devil/1.7.8<sub>1</sub>/lib/libIL.dylib, 10): Symbol not found: _png<sub>set</sub><sub>gray</sub><sub>1</sub><sub>2</sub><sub>4</sub><sub>to</sub><sub>8</sub>
+  Referenced from: /usr/local/Cellar/devil/1.7.8<sub>1</sub>/lib/libIL.dylib
+  Expected in: dynamic lookup</li>
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 11:50] </span></span> <br  />
+Waiting to see if Cepl works</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 11:49] </span></span> <br  />
+I simply uninstalled and reinstalled and it seems to have installed. Lets test
+and see if cepl actually works</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline53" class="outline-3">
+<h3 id="orgheadline53"><span class="section-number-3">5.11</span> <span class="done DONE">DONE</span> Get rid of additional tution fees</h3>
+<div class="outline-text-3" id="text-5-11">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 12:39] </span></span> <br  />
+The tution is paid</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline54" class="outline-3">
+<h3 id="orgheadline54"><span class="section-number-3">5.12</span> <span class="done DONE">DONE</span> Set up meeting with Carrie</h3>
+<div class="outline-text-3" id="text-5-12">
+<ul class="org-ul">
+<li>State "DONE"       from "WAIT"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 12:39] </span></span> <br  />
+Meeting is set for Monday April 4 10:30</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 12:04] </span></span> <br  />
+This is posponed to next week cause she is busy this week</li>
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 11:58] </span></span> <br  />
+Sent email waiting for response</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-30 Wed 11:58] </span></span> <br  />
+need to get paperwork filed</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline56" class="outline-2">
+<h2 id="orgheadline56"><span class="section-number-2">6</span> <span class="todo WAIT">WAIT</span> Make a simple swig flag to generate packages</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-03-04 Fri 15:33] </span></span> <br  />
+Waiting to first get vrpn working without the need for swig</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-03-04 Fri 15:09] </span></span> <br  />
+Writing swig module to autogenerate packages</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline57" class="outline-2">
+<h2 id="orgheadline57"><span class="section-number-2">7</span> <span class="todo TODO">TODO</span> Make asdf file and write to it</h2>
+</div>
+<div id="outline-container-orgheadline58" class="outline-2">
+<h2 id="orgheadline58"><span class="section-number-2">8</span> <span class="todo TODO">TODO</span> Make package file and write to it</h2>
+</div>
+<div id="outline-container-orgheadline59" class="outline-2">
+<h2 id="orgheadline59"><span class="section-number-2">9</span> <span class="todo TODO">TODO</span> Make library file and write to is</h2>
+</div>
+<div id="outline-container-orgheadline60" class="outline-2">
+<h2 id="orgheadline60"><a id="ID-ef2af037-440a-4493-88c4-bb90827be31c"></a><span class="section-number-2">10</span> <span class="todo TODO">TODO</span> Commit swig package generation to swig project</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+</div>
+
+
+
+<div id="outline-container-orgheadline65" class="outline-2">
+<h2 id="orgheadline65"><span class="section-number-2">11</span> April</h2>
+<div class="outline-text-2" id="text-11">
+</div><div id="outline-container-orgheadline61" class="outline-3">
+<h3 id="orgheadline61"><span class="section-number-3">11.1</span> </h3>
+</div>
+<div id="outline-container-orgheadline62" class="outline-3">
+<h3 id="orgheadline62"><span class="section-number-3">11.2</span> <span class="todo WAIT">WAIT</span> DONE name vote</h3>
+<div class="outline-text-3" id="text-11-2">
+<ul class="org-ul">
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-04-08 Fri 10:54] </span></span> <br  />
+Waiting for responses</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-04-08 Fri 10:54] </span></span> <br  />
+Send people to vote on names</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline63" class="outline-3">
+<h3 id="orgheadline63"><span class="section-number-3">11.3</span> <span class="done CANCELED">CANCELED</span> Install rifts in the touch screens</h3>
+</div>
+<div id="outline-container-orgheadline64" class="outline-3">
+<h3 id="orgheadline64"><span class="section-number-3">11.4</span> <span class="todo WAIT">WAIT</span> Request quote for Middle VR.</h3>
+<div class="outline-text-3" id="text-11-4">
+<ul class="org-ul">
+<li>State "WAIT"       from "CURRENT"    <span class="timestamp-wrapper"><span class="timestamp">[2016-04-08 Fri 11:06] </span></span> <br  />
+waiting on a response</li>
+<li>State "CURRENT"    from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2016-04-08 Fri 11:06] </span></span> <br  />
+Send email to sebastien for an updated quote</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: nshetty</p>
+<p class="date">Created: 2017-04-02 Sun 23:51</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,170 @@
+#+TODO: TODO(t) CURRENT(c@) WAIT(w@/!) | DONE(d@/!) CANCELED(c@)
+#+LAST_MOBILE_CHANGE: 2014-01-23 11:32:56
+
+2017
+* Daily
+** DONE Send Amy the videos of Collaboration
+   - State "CURRENT"    from "TODO"       [2017-03-29 Wed 10:41] \\
+     We took videos of the collaboration work during mechdyne visit. I sent those
+     to the group
+** CURRENT Put color into Masa dataset
+   - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:57] \\
+     Ther are many documetns that show the color. What I will do now is simply take
+     one file and try to fill in the color
+** DONE Get the signature of Anju for bank document
+** DONE House Inspectino
+   - State "DONE"       from "WAIT"       [2017-04-02 Sun 16:52]
+   - State "WAIT"       from "CURRENT"    [2017-04-02 Sun 16:52]
+   - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:52]
+** DONE Sign the objection document
+   - State "DONE"       from "WAIT"       [2017-04-02 Sun 16:52]
+   - State "WAIT"       from "CURRENT"    [2017-04-02 Sun 16:52]
+   - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:51]
+** TODO Search for house insurance
+** TODO Get the documents filled out properly for Mortgage source
+** TODO Send Anju signature to Mortgage source
+** TODO Mortgage Source schedule evaluation
+** TODO Wait for the responce from seller about objection document
+** TODO Complete Tax Documents
+** TODO Wash the dishes
+** TODO Put clothes for wash
+** TODO Fold the clothes
+** TODO Clean and throw out garbage
+** TODO Put the shoes back in closet
+
+* April
+** TODO Performance plan
+*** TODO Time Management
+*** TODO Team wor
+
+* March
+** TODO PhD Admission
+*** TODO Talk to the lady in computer science and get admission process
+*** TODO Collect course work
+** TODO VueNix
+*** DONE Configure Tiled Walls
+*** DONE Setup PetaLibrary
+*** TODO Setup the Configuration 
+*** TODO Setup Tracking on all master nodes
+*** TODO Load the larger masa dataset into the software and test
+*** TODO Make VTK VRUI work in CAVE and tiled wall
+** TODO Performance document
+*** DONE Stress
+* FEB
+** TODO send the document to EJ about grant
+** TODO make schedule for guitar everyday
+** TODO make schedule for painting everyday
+** DONE Meet Katie and discuss meditation and her life
+** Contact the committee personally and setup meeting
+   - Carolina .
+   - Dirk .
+   - Jan . 
+   - James .
+   - Jared 
+   - EJ
+   - Amy .
+   - Simon
+** Replace vtkMolecule with own class
+** Replace vtkCMLMoleculeReader with own class
+2016
+
+* March
+** DONE Proctered VR class exam for Amy Banic
+  - State "DONE"       from "WAIT"       [2016-03-23 Wed 09:12] \\
+    Amy was at a conference and I had to procter her exam. Print out the answers
+    into a pdf and send it to her.
+** DONE Help Grant Bowman with bringing in data
+   - State "DONE"       from "WAIT"       [2016-03-24 Thu 15:17] \\
+     Class is coming in on March 29'th monday
+  - State "WAIT"       from "CURRENT"    [2016-03-23 Wed 11:40] \\
+    Waiting for class to come in and make the changes to CAVE before class
+  - State "CURRENT"    from "TODO"       [2016-03-23 Wed 11:38] \\
+    Helping him get all his datasets on the machine. It seems like the CAVE is as
+    a little different. Maybe there is something wrong with the versioning. Also
+    the command to start vmd is lost from history (due to Angela using the
+    cave). So I had to go the Bills site and get the comand again.
+** DONE Check with Amy about class coming in
+   - State "DONE"       from "WAIT"       [2016-03-24 Thu 15:18] \\
+     Amys class is coming in on March 29 Tuesday
+  - State "WAIT"       from "CURRENT"    [2016-03-23 Wed 11:37] \\
+    wating for confirmation from amy
+** DONE Get the tution waiver for Mobile Computing
+   - State "DONE"       from "WAIT"       [2016-03-30 Wed 11:47] \\
+     The tution waiver is here but the amount is still high
+  - State "WAIT"       from "CURRENT"    [2016-03-23 Wed 11:42] \\
+    Waiting for Kira Poulson from HR to update Accounts recievable. Then I have to
+    put update pay the remaining amount
+** TODO VRPN-client for common lisp
+  - State "TODO"       from ""           [2016-03-04 Fri 15:34] \\
+    Make VRPN client for common lisp
+** DONE Introduce Masa masters thesis to CFD group
+   - State "DONE"       from "WAIT"       [2016-04-05 Tue 19:07] \\
+     They didnt seem to want that. They were looking for higherdimentional
+     plotting. Volume rendering seems to be more accurate for that.
+   - State "WAIT"       from "CURRENT"    [2016-03-24 Thu 14:08] \\
+     Waiting for a response from Matt
+   - State "CURRENT"    from "TODO"       [2016-03-24 Thu 14:07] \\
+     The cdf group had asked if I can do some data assimilation for them. I think
+     masa has already done something wrt this and I send them his work.
+** DONE Get CFD group to use tech viz
+   - State "DONE"       from "WAIT"       [2016-03-30 Wed 11:48] \\
+     Asked Josh to set up time with Matt for FV test
+   - State "WAIT"       from "CURRENT"    [2016-03-24 Thu 14:09] \\
+     Wrote email to Matt and waiting for response
+** TODO Write CEPL for CAVE
+** TODO Compile latest CEPL on mac
+** WAIT Get a working DEVIL library on mac
+   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 12:38] \\
+     This seems to a huge problem with brew. I might have to do this by myself. The
+     idea will be to build everything from scratch
+   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:56] \\
+     Error opening shared object "/usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib":
+       dlopen(/usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib, 10): Symbol not found: _png_set_gray_1_2_4_to_8
+       Referenced from: /usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib
+       Expected in: dynamic lookup
+   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:50] \\
+     Waiting to see if Cepl works
+   - State "CURRENT"    from "TODO"       [2016-03-30 Wed 11:49] \\
+     I simply uninstalled and reinstalled and it seems to have installed. Lets test
+     and see if cepl actually works
+
+** DONE Get rid of additional tution fees
+   - State "DONE"       from "WAIT"       [2016-03-30 Wed 12:39] \\
+     The tution is paid
+** DONE Set up meeting with Carrie
+   - State "DONE"       from "WAIT"       [2016-03-30 Wed 12:39] \\
+     Meeting is set for Monday April 4 10:30
+   - State "CURRENT"    from "TODO"       [2016-03-30 Wed 12:04] \\
+     This is posponed to next week cause she is busy this week
+   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:58] \\
+     Sent email waiting for response
+   - State "CURRENT"    from "TODO"       [2016-03-30 Wed 11:58] \\
+     need to get paperwork filed
+* WAIT Make a simple swig flag to generate packages
+  - State "WAIT"       from "CURRENT"    [2016-03-04 Fri 15:33] \\
+    Waiting to first get vrpn working without the need for swig
+  - State "CURRENT"    from "TODO"       [2016-03-04 Fri 15:09] \\
+    Writing swig module to autogenerate packages
+* TODO Make asdf file and write to it
+* TODO Make package file and write to it
+* TODO Make library file and write to is
+* TODO Commit swig package generation to swig project
+  :PROPERTIES:
+  :ID:       ef2af037-440a-4493-88c4-bb90827be31c
+  :END:
+  
+
+
+* April
+** 
+** WAIT DONE name vote
+   - State "WAIT"       from "CURRENT"    [2016-04-08 Fri 10:54] \\
+     Waiting for responses
+   - State "CURRENT"    from "TODO"       [2016-04-08 Fri 10:54] \\
+     Send people to vote on names
+** CANCELED Install rifts in the touch screens
+** WAIT Request quote for Middle VR.
+   - State "WAIT"       from "CURRENT"    [2016-04-08 Fri 11:06] \\
+     waiting on a response
+   - State "CURRENT"    from "TODO"       [2016-04-08 Fri 11:06] \\
+     Send email to sebastien for an updated quote

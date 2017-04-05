@@ -2,26 +2,55 @@
 #+LAST_MOBILE_CHANGE: 2017-04-04 01:37:25
 
 * Daily
-** TODO JIRA Introduction
+** DONE JIRA Introduction
    SCHEDULED: <2017-04-05 Wed 09:00>
    :PROPERTIES:
    :ID:       e0d672e7-5d57-4ea7-9295-94da5155e020
    :END:
-** TODO Cave-to-Cave GA
+   - State "DONE"       from "CURRENT"    [2017-04-05 Wed 12:47]
+   - Trillo
+   - Zenhub
+   - JIRA
+   - other project management tools
+** CANCELED Cave-to-Cave GA
    SCHEDULED: <2017-04-05 Wed 10:00>
    :PROPERTIES:
    :ID:       d0d4a12a-23d3-4fc2-af5b-d8ce335d8302
    :END:
-** TODO Viz needs for CFD
+
+** DONE Investigate how to synchronize tasks with github
+   SCHEDULED: <2017-04-05 Wed>
+   :PROPERTIES:
+   :ID:       1440b8e0-e72f-4803-bdf7-c7af18d468db
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 10:57] \\
+     Use org-sync
+** CURRENT Look at video to org-sync
+   SCHEDULED: <2017-04-05 Wed>
+   :PROPERTIES:
+   :ID:       82be5cc9-2cdc-417d-b09f-9d4fc2d494c5
+   :END:
+   - State "CURRENT"    from "TODO"       [2017-04-05 Wed 10:58] \\
+     http://orgmode.org/worg/org-contrib/gsoc2012/student-projects/org-sync/
+** DONE Viz needs for CFD
    SCHEDULED: <2017-04-05 Wed 11:00>
    :PROPERTIES:
    :ID:       542d6dab-e53b-4341-be58-8c2a741d41ee
    :END:
-** WAIT [#B] Ask Jared for minutes of last meeting
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 12:47] \\
+     - We spoke about the 20'th deadline.
+     - Kyle will be working on the artistic rendering
+     - Andrew will give me the data after
+** DONE [#B] Ask Jared for minutes of last meeting
    SCHEDULED: <2017-04-03 Mon>
    :PROPERTIES:
    :ID:       045810c8-4f3a-4f1f-9794-e3b5545d1fe6
    :END:
+   - State "DONE"       from "WAIT"       [2017-04-05 Wed 12:49] \\
+     - Spoke to Jared face to face
+     - The second thing on the agenda (other than training) was github
+     - basically using github as a means to keep agendas
+     - Specify all you need as github feature requests
    - State "WAIT"       from "TODO"       [2017-04-03 Mon 10:23] \\
      Sent an email to Jared asking for a picture of his notes
 ** CURRENT Put color into Masa dataset
@@ -192,6 +221,7 @@
    :ID:       d206c1b1-9810-4af0-ae2c-3c52640f7e81
    :END:
    - Still up in the air. I might be more ready after the 25'th
+** DONE Reminder Email to EJ to talk to Peter
 * Week
 ** DONE [#A] Work on using dropbox to synchronize between documents
    SCHEDULED: <2017-04-03 Mon>

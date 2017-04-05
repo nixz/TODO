@@ -1,34 +1,529 @@
 #+TODO: TODO(t) CURRENT(c@) WAIT(w@/!) | DONE(d@/!) CANCELED(c@)
-#+LAST_MOBILE_CHANGE: 2014-01-23 11:32:56
+#+LAST_MOBILE_CHANGE: 2017-04-04 01:37:25
 
-2017
 * Daily
+** TODO JIRA Introduction
+   SCHEDULED: <2017-04-05 Wed 09:00>
+   :PROPERTIES:
+   :ID:       e0d672e7-5d57-4ea7-9295-94da5155e020
+   :END:
+** TODO Cave-to-Cave GA
+   SCHEDULED: <2017-04-05 Wed 10:00>
+   :PROPERTIES:
+   :ID:       d0d4a12a-23d3-4fc2-af5b-d8ce335d8302
+   :END:
+** TODO Viz needs for CFD
+   SCHEDULED: <2017-04-05 Wed 11:00>
+   :PROPERTIES:
+   :ID:       542d6dab-e53b-4341-be58-8c2a741d41ee
+   :END:
+** WAIT [#B] Ask Jared for minutes of last meeting
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       045810c8-4f3a-4f1f-9794-e3b5545d1fe6
+   :END:
+   - State "WAIT"       from "TODO"       [2017-04-03 Mon 10:23] \\
+     Sent an email to Jared asking for a picture of his notes
 ** CURRENT Put color into Masa dataset
+   SCHEDULED: <2017-04-04 Tue 10:30-16:30>
+   :PROPERTIES:
+   :ID:       260a22d1-df26-46e9-93be-fe111839b46f
+   :END:
    - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:57] \\
      Ther are many documetns that show the color. What I will do now is simply take
      one file and try to fill in the color
-** TODO [#A] Search for house insurance
-** TODO [#A] Get the documents filled out properly for Mortgage source
-** TODO [#A] Send Anju signature to Mortgage source
-** TODO [#A] Mortgage Source schedule evaluation
-** TODO Wait for the responce from seller about objection document
+** TODO [#A] Get Quote from Progressive
+   SCHEDULED: <2017-04-04 Tue 16:30-17:00>
+   :PROPERTIES:
+   :ID:       f6b36167-d772-482a-88f2-d58673b37da4
+   :END:
+   See if you can get the AutoPolicy renewed as well
+** TODO [#C] Renew Auto Policy Progressive
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       1876866f-5994-4aea-9712-ae866896016c
+   :END:
+** TODO [#A] Get Quote from Burns Insurance Laramie
+   SCHEDULED: <2017-04-04 Tue 17:00-17:30>
+   :PROPERTIES:
+   :ID:       df2d37e5-e6d3-4f25-8d94-efd540585d0d
+   :END:
+** WAIT Wait for the responce from seller about objection document
+   :PROPERTIES:
+   :ID:       f50522b1-ba22-445f-959d-7bfa05569720
+   :END:
+   - State "WAIT"       from "TODO"       [2017-04-03 Mon 13:50] \\
+     I filed out the objection document in Kelly's office. She said that she will
+     get back to me on Monday (today). So am waiting.
 ** TODO [#B] Complete Tax Documents
-** TODO Put dishes back in closet
-** TODO Fold the clothes
-** TODO [#A] Time Management
-** TODO [#B] Schedule meeting with Dimitri and team
+   SCHEDULED: <2017-04-04 Tue 17:30-18:00>
+   :PROPERTIES:
+   :ID:       b27393de-4a29-4519-9cb0-faf5aea11635
+   :END:
 ** TODO [#C] Schedule meeting with Masa and team
+   :PROPERTIES:
+   :ID:       44d2796d-77a9-4ab7-af41-fcd9b238133f
+   :END:
 ** TODO [#A] Talk to the lady in computer science and get admission process
+   :PROPERTIES:
+   :ID:       177a6d3c-ef8e-4325-a9d0-135df81d9709
+   :END:
 ** TODO [#B] Collect course work
+   :PROPERTIES:
+   :ID:       e0f8a3bf-43bf-4cb9-a71f-ca13e697141e
+   :END:
 ** TODO Setup Tracking on all master nodes
+   :PROPERTIES:
+   :ID:       37988132-c0b2-4c3e-8919-4e9f63608be6
+   :END:
 ** TODO Load the larger masa dataset into the software and test
+   :PROPERTIES:
+   :ID:       51186507-905b-4130-952f-75b8d3fbfcda
+   :END:
 ** TODO Make VTK VRUI work in CAVE and tiled wall
-** TODO Ask Jared for minutes of last meeting
-** TODO Talk to EJ about training and Indian thing on time
-** TODO Work on using google one to synchronize between documents
-** TODO Transfer money from chase to uniwyo
-** TODO Transfer money to Mariwati
-* April
+   :PROPERTIES:
+   :ID:       ceeae31f-fec1-4da4-842f-86fce649ab2f
+   :END:
+** TODO [#A] Transfer money to Mariwati
+   SCHEDULED: <2017-04-05 Wed>
+   :PROPERTIES:
+   :ID:       8178e1c9-7b3c-4881-aecc-6d968dcfae62
+   :END:
+** TODO [#B] Get from Ilse on 15'th
+   SCHEDULED: <2017-04-15 Sat>
+   :PROPERTIES:
+   :ID:       f7a252d2-3f90-4bef-a8cf-92499ee89a3b
+   :END:
+** TODO Go throught grant writing info from UW site
+   :PROPERTIES:
+   :ID:       fee1e221-7dd3-421d-b07b-6864e057f2f5
+   :END:
+** WAIT Make a simple swig flag to generate packages
+   :PROPERTIES:
+   :ID:       1502cad8-04dc-462f-85a4-626120c8b9c1
+   :END:
+  - State "WAIT"       from "CURRENT"    [2016-03-04 Fri 15:33] \\
+    Waiting to first get vrpn working without the need for swig
+  - State "CURRENT"    from "TODO"       [2016-03-04 Fri 15:09] \\
+    Writing swig module to autogenerate packages
+** TODO Make asdf file and write to it
+   :PROPERTIES:
+   :ID:       bc1c13e6-5c17-4257-bfba-6f0266f5bbf8
+   :END:
+** TODO Make package file and write to it
+   :PROPERTIES:
+   :ID:       376ba496-100a-4f29-b588-200c8253a718
+   :END:
+** TODO Make library file and write to is
+   :PROPERTIES:
+   :ID:       29cf63aa-ef1b-4dc7-aede-b1835a966919
+   :END:
+** TODO Commit swig package generation to swig project
+  :PROPERTIES:
+  :ID:       ef2af037-440a-4493-88c4-bb90827be31c
+  :END:
+  
+** TODO VRPN-client for common lisp
+   :PROPERTIES:
+   :ID:       5c38b779-a09d-4276-a432-794f554f8a44
+   :END:
+  - State "TODO"       from ""           [2016-03-04 Fri 15:34] \\
+    Make VRPN client for common lisp
+** TODO Write CEPL for CAVE
+   :PROPERTIES:
+   :ID:       910525ea-2d62-4bf7-8f36-718b91d7dbe8
+   :END:
+** TODO Compile latest CEPL on mac
+   :PROPERTIES:
+   :ID:       01573c89-de7a-45f0-9c00-fbab0995e9ad
+   :END:
+** WAIT Get a working DEVIL library on mac
+   :PROPERTIES:
+   :ID:       f6ba3fdc-d565-4ea7-bfb6-d76e7a7e8e98
+   :END:
+   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 12:38] \\
+     This seems to a huge problem with brew. I might have to do this by myself. The
+     idea will be to build everything from scratch
+   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:56] \\
+     Error opening shared object "/usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib":
+       dlopen(/usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib, 10): Symbol not found: _png_set_gray_1_2_4_to_8
+       Referenced from: /usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib
+       Expected in: dynamic lookup
+   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:50] \\
+     Waiting to see if Cepl works
+   - State "CURRENT"    from "TODO"       [2016-03-30 Wed 11:49] \\
+     I simply uninstalled and reinstalled and it seems to have installed. Lets test
+     and see if cepl actually works
+
+** TODO Make a plan for the grant
+   :PROPERTIES:
+   :ID:       c56e4053-455a-4de0-89c6-495488cff21f
+   :END:
+** TODO Extend plan for VueNix 
+   :PROPERTIES:
+   :ID:       4dc6ec9b-2d59-4623-93b7-a34afee1285c
+   :END:
+** TODO Start documenting plan design etc on Github
+   :PROPERTIES:
+   :ID:       0d0a3fa1-cc84-4379-99c7-35b741468f88
+   :END:
+** TODO Read Cognizant Paper 
+   SCHEDULED: <2017-04-07 Fri>
+   :PROPERTIES:
+   :ID:       b381b30a-ce11-4d0f-b9f2-e96271065e58
+   :END:
+   file:///home/nshetty/Downloads/data-science-how-the-marriage-of-technology-and-math-can-produce-actionable-results-codex1889.pdf
+** TODO Live Local Work Local (6-8)
+   SCHEDULED: <2017-04-11 Tue>
+   :PROPERTIES:
+   :ID:       4e484255-dd82-41d9-98c3-3f19eee49423
+   :END:
+** TODO [#A] Prepare for demo on 25'th
+   :PROPERTIES:
+   :ID:       07fdd2c5-f4f9-4a93-a0f6-9aada5921601
+   :END:
+** TODO Prepare for Introduction to Viz for RMACC
+   :PROPERTIES:
+   :ID:       7115aa65-b417-4dfb-9679-74efb1c8bcbd
+   :END:
+   EJ suggested that I practice with the group a month in advance
+** TODO Presenting VueNix for at RMACC
+   :PROPERTIES:
+   :ID:       d206c1b1-9810-4af0-ae2c-3c52640f7e81
+   :END:
+   - Still up in the air. I might be more ready after the 25'th
+* Week
+** DONE [#A] Work on using dropbox to synchronize between documents
+   SCHEDULED: <2017-04-03 Mon>
+:PROPERTIES:
+   :ID:       713bb8ea-465d-4225-9513-d20c098bf409
+   :END:
+installed Dropbox app just in case
+- State "DONE"       from "TODO"       [2017-04-03 Mon 13:13]
+** DONE [#C] Put dishes back in closet
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       0faf7ace-30d8-4306-af73-dffdffe2e6fc
+   :END:
+** DONE [#C] Fold the clothes
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       2aaf174b-aaf3-42d5-9163-044ea5866f3f
+   :END:
+** DONE [#A] Time Management
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       95e1f68f-527c-4fc4-af7f-00e617979e05
+   :END:
+   - State "CURRENT"    from "TODO"       [2017-04-03 Mon 14:10] \\
+     * Introduction
+     ** Introduction to time management.
+     * Setting and Priotitizing goals
+     ** Setting Goals
+        - long term > month
+        - short term < month
+        - Relistic and Challenging
+        - Specific
+        - Time-limited
+        - Measurable
+        - Break down longer term goals into smaller tasks
+        - Set goals in all areas. You'll feel better more productive and reduce
+          stress
+     ** Prioritizing Goals
+        - Urgency
+        - Importance
+        - Achieve one with highest priority
+        - Make a 4 categories
+        - Important + Urgent (Do it now)
+        - ~Important + Urgent (requires immediate response)
+        - ~Important + ~Urgent (delegate if possible)
+        - Spend most time in (Important + ~Urgent). It has long term impact on your
+          job, career or business.
+        - Imprtant + ~Urgent
+          . Long-range planning
+          . Customer/Client contact.
+          . Participation in professional organization
+        - If there is nothing more important you should be doing then you are using
+          your time to your best advantage.
+     * Organizing your physical space
+     ** Clear out the clutter
+        - Organize
+        - Schedule time to go through paper
+        - Do I need this NOW? rather than will I ever need it?
+        - RAFT (Refer, Act, File, Thrash)
+          . Refer to someone else
+          . Act on paperwork (highlight deadline)
+          . File things you will need in the future
+          . Throw out or recycle unnecessary paper.
+        - Write down tasks while clearing out the clutter
+        - A note for every task will be overlooked (reuse paper)
+        - Transfer telephone and addresses (collect them)
+        - Have an effective filing system
+        - Choose a system that works for you
+        - Filing system may be
+          1. Alphabetical
+          2. Numerical
+          3. By subject
+          4. Chronological
+          5. Geographical
+        - Keep it simple
+        - Active working files within arms reach
+        - Store other files in a central location
+        - Periodically clean out the files
+        - Dektop trays (in,out,pending)
+        - Only things on your desktop should be
+          - pad of paper
+          - pen
+          - papers currently working with
+     ** Organizing your tools
+        - Near (frequent)  Far (Non-frequent) rule
+        - Daily Planner (most important)
+        - Use the calander
+        - Take notes
+        - Record on day/week at a glance
+        - Use pencil
+        - Use one calander for personal and business
+        - 2 todo list
+          - master list
+          - daily list (10 items or less)
+        - tracking
+          - Documetn accomplished tasks
+          - Document mileage and expenses
+          - Project status
+          - Notes
+        - Tailor to fit your needs
+        - Addresses and telephone numbers
+        - Writing goals and keepign track
+        - Pockets folders (etc)
+     * Organizing your day
+     ** Planning you time
+        - Dont rewrite your master (work from it)
+        - Schecdule your time for the tasks. Then figure out when to do the rest.
+        - Most difficult task during your high energy
+        - Routine tasks during low energy.
+        - Something that requires large time then schedule it and stick to it till
+          done.
+        - Leave 10% of day unplanned
+          - Handle the unexpected
+          - reduce stress
+          - provide flexibility
+        - Benefit to Alternate tasks.
+          1) Relaxation
+          2) Variety
+          3) Increasing efficiency
+        - Reason for procrastrinating 
+          1) Unpleasent task
+        - Outside appointments
+          1) Call and confirm
+          2) Reschedule if appropriate
+          3) Assume appointment will take twice as long
+          4) Arrive early, bring work with you
+          5) Group appointments geographically
+          6) Always build 15 min buffer (travel delays)
+          7) Schedule appointments to concide with home/work travel
+        - Consider telecomuting
+     
+     ** Handiling interruptions
+        - Phone calls (aniticipate clent needs)
+        - Screen or voice mails
+        - Drop in interruptions (keep it brief)
+        - ways to handle interruptions
+          1) Position desk away from passers by
+          2) Close the door
+          3) put sign on door
+          4) place sign on desk
+          5) place somethign on visitors chair
+          6) turn visitors chair around
+          7) Stand and set a time limit
+        - For long period of uninterrupted time
+          1) Work at home
+          2) Work in unoccupied office
+          3) Work at local library
+        - Threaten yourself with having to work overtime to get the task
+          completed. 
+     ** Learning to delegade
+        * When do people dont delegage
+          * Personal Insecurities
+          * "Do it myself" attitude
+          * Reluctance to give up enjoyable time
+        * Delegate rules of thumb
+          * Train the person to whom you delegade
+          * Give good instructions
+          * Give authority
+          * Check progress periodically
+     * Handling information
+     ** Choosing your medium
+        * Set specific times to check mail, voicemail etc.
+        * Filter Information
+          * recycle junk mail
+          * skim subject line and delete things not pertaining to you
+          * group callbacks together
+          * leave messages during off hours or at lunch
+          * speak breifly (call during off hours)
+          * use speed dialing to save time
+     ** Improving converstion skills
+        * Knowing what you want to say and accomplish
+        * Practicing Reflective listening
+          - Careful listening
+          - Using 'I understand that you' statements
+          - restating what you heard
+        * Ask quesitons
+          - Open ended (why, how, what, explain, tellme)
+          - Close ended , leading (during time constraints)
+        * Clarify what you have said
+        * Speaking to the right person
+        * Take notes on conversation
+        * Conversiing with everyone has time and energy
+     * Managing effective meetings
+     ** Pinpointing problems
+        - Obstacles for effective meetings
+          + Lack of focus
+          + No plan of action
+        - How to facilitate a meeting
+          + Begin and end on time
+          + Dont dominate the discussion
+          + Dont allow others to dominate the discussion
+          + Keep discussion on time
+     ** The Agenda rules
+        - Always know why you are meeting BEFORE you arrive
+        - Dont waste time if you dont need to attend the meeting
+        - Only attend part or parts of the meetign that apply to you
+        - Items on an Agenda
+          + Date
+          + Beginning and ending time
+          + Participants
+          + Topics for discussion
+        - Uses of agenda
+          + Provides direction
+          + Allows participants to prepare
+          + serves as roadmap
+        - Agenda tips
+          + Priotrize topics
+          + Distribute in advance
+          + List agenda for all to see
+        - Effective Meeting tips
+          + Review agenda for everyone
+          + Agree on amount of time for each item
+          + Appoint timekeeper and a note taker
+          + Postpone new issues/items
+          + Summarize key points/descions
+          + Delegade leftover items
+          + Start and end of time
+** DONE [#A] Email EJ after Time Management is done
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       b1a47129-c734-48ed-8ac2-918f42ae910e
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 16:24] \\
+     Emailed EJ informing her about completion. Asked her to setup the meeting to
+     discuss it.
+
+** DONE [#A] Get the documents filled out properly for Mortgage source
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       2c4a3e76-6380-4173-b97f-0563e1d96dcf
+   :END:
+   - State "DONE"       from "CURRENT"    [2017-04-04 Tue 01:37]
+** DONE [#A] Send Anju signature to Mortgage source
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       c3c86412-1316-4f43-b9ec-7868dde61cd5
+   :END:
+** DONE [#A] Mortgage Source schedule appraisal
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       df2bb72b-ea76-48df-ae55-4807da98b693
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 13:44] \\
+     Called Becca in mortgage source and scheduled my apraisal. She said that if
+     there were any changes to the price then I should let her know
+
+** DONE [#B] Inform EJ about not being able to do the thursday thing
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       7c827292-db60-46c6-90bb-12b4c90454b9
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 16:41] \\
+     I informed EJ and let her know that I will be combining both my calanders
+** DONE [#A] Cancel Meeting with Amy
+   SCHEDULED: <2017-04-04 Tue>
+   :PROPERTIES:
+   :ID:       d255235b-6996-485b-978d-d59641394989
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-04 Tue 09:08] \\
+     Cancelled meeting. I need to get my admission and paperwork done till I meet
+     with her next week.
+** DONE Sync Calander task with TODO
+   :PROPERTIES:
+   :ID:       ef7c71c9-0423-4423-aab9-28d3dc314d47
+   :END:
+   - State "DONE"       from "CURRENT"    [2017-04-05 Wed 07:26] \\
+     I could only do this with the calander on the phone. Was able to sync see
+     other calanders in google and office
+   - State "CURRENT"    from "TODO"       [2017-04-04 Tue 09:36] \\
+     Looks like I have outlook showing up in google and vice versa. However I want
+     to be able to have my tasks show up in both.
+** DONE Email EJ about confirming talk
+   SCHEDULED: <2017-04-05 Wed 08:00>
+   :PROPERTIES:
+   :ID:       f9270f8c-6e5e-44b2-ace1-8ff433c7df61
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 07:53] \\
+     Confimed that I will do the introduction to Viz in RMACC. Need to figure out a
+     book and prepare the material to do this
+** DONE Email EJ about panel
+   SCHEDULED: <2017-04-05 Wed 08:15>
+   :PROPERTIES:
+   :ID:       eb0ee555-159d-48fa-842d-ea8fe0119594
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 07:56] \\
+     Confirmed that I will be interested in doing the viz panel in RMACC
+** DONE Email Kevin about not making it today
+   SCHEDULED: <2017-04-05 Wed 08:30>
+   :PROPERTIES:
+   :ID:       a585d5e1-3b0a-4623-b591-ad3f20afc90f
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 07:59] \\
+     Email Kevin (please spend some time catcching up)
+** DONE Email EJ about doing a VueNix workshop
+   SCHEDULED: <2017-04-05 Wed 08:45>
+   :PROPERTIES:
+   :ID:       7ac73d87-442a-4f89-ae63-1308619f1c24
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 08:03] \\
+     I would not be confident if I didnt make progress or publlished a paper. Would
+     like to her EJ's thoughts
+
+** DONE [#A] Get grant writing paperwork from the Research Office.
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 10:05] \\
+     http://www.uwyo.edu/research/proposal-development/
+** DONE [#B] Transfer to warren
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 10:17] \\
+     moved some amound for car payment
+** DONE [#A] Transfer money from chase to uniwyo
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 10:17] \\
+     moved to pay rent
+** DONE [#B] Schedule meeting with Dimitri and team
+   - State "DONE"    from "TODO"       [2017-04-03 Mon 09:56] \\
+     Agenda:
+     
+     1. SC 17 Viz Showcase (July 31) (Video content with Artwork)
+     2. RMACC (VR Demo)
+     3. Zhi Yang wrapper code integration with VueNix
+     4. Funding to include Viz Software development
+     5. Remuneration for Artwork.
+** DONE make schedule for guitar everyday
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 10:34] \\
+     Give half hour
+** DONE make schedule for painting everyday
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 10:34] \\
+     Give half hour
+
+* Month
+** TODO [#A] Demo on 25'th
+   :PROPERTIES:
+   :ID:       1f74cec1-e940-41b7-87a3-747cdd770f8e
+   :END:
 ** Soft Skills
 *** DONE [#A] Team work
    - State "DONE"       from "CURRENT"    [2017-04-03 Mon 02:12] \\
@@ -191,6 +686,10 @@
 *** DONE [#A] Submit time sheet
    - State "DONE"       from "TODO"       [2017-04-03 Mon 08:12] \\
      There were no leaves on this week
+*** DONE Talk to EJ about training and Indian thing on time
+   - State "DONE"       from "TODO"       [2017-04-03 Mon 08:43] \\
+     Spoke about how cultures are different linear vs circular. EJ suggested to
+     have it mixed.
 ** PhD Admission
 ** VueNix
 ** House Purchase
@@ -204,132 +703,28 @@
 *** DONE Put the shoes back in closet
 *** DONE Put clothes for wash
 *** DONE Wash the dishes
-* March
-** DONE Send Amy the videos of Collaboration
-   - State "CURRENT"    from "TODO"       [2017-03-29 Wed 10:41] \\
-     We took videos of the collaboration work during mechdyne visit. I sent those
-     to the group
-** DONE VueNix
-*** DONE Configure Tiled Walls
-*** DONE Setup PetaLibrary
-*** DONE Setup the Configuration  on  diplayc
-** DONE Performance document
-*** DONE Stress
-* FEB
-** TODO send the document to EJ about grant
-** TODO make schedule for guitar everyday
-** TODO make schedule for painting everyday
-** DONE Meet Katie and discuss meditation and her life
-** Contact the committee personally and setup meeting
-   - Carolina .
-   - Dirk .
-   - Jan . 
-   - James .
-   - Jared 
-   - EJ
-   - Amy .
-   - Simon
-** Replace vtkMolecule with own class
-** Replace vtkCMLMoleculeReader with own class
-2016
-
-* March
-** DONE Proctered VR class exam for Amy Banic
-  - State "DONE"       from "WAIT"       [2016-03-23 Wed 09:12] \\
-    Amy was at a conference and I had to procter her exam. Print out the answers
-    into a pdf and send it to her.
-** DONE Help Grant Bowman with bringing in data
-   - State "DONE"       from "WAIT"       [2016-03-24 Thu 15:17] \\
-     Class is coming in on March 29'th monday
-  - State "WAIT"       from "CURRENT"    [2016-03-23 Wed 11:40] \\
-    Waiting for class to come in and make the changes to CAVE before class
-  - State "CURRENT"    from "TODO"       [2016-03-23 Wed 11:38] \\
-    Helping him get all his datasets on the machine. It seems like the CAVE is as
-    a little different. Maybe there is something wrong with the versioning. Also
-    the command to start vmd is lost from history (due to Angela using the
-    cave). So I had to go the Bills site and get the comand again.
-** DONE Check with Amy about class coming in
-   - State "DONE"       from "WAIT"       [2016-03-24 Thu 15:18] \\
-     Amys class is coming in on March 29 Tuesday
-  - State "WAIT"       from "CURRENT"    [2016-03-23 Wed 11:37] \\
-    wating for confirmation from amy
-** DONE Get the tution waiver for Mobile Computing
-   - State "DONE"       from "WAIT"       [2016-03-30 Wed 11:47] \\
-     The tution waiver is here but the amount is still high
-  - State "WAIT"       from "CURRENT"    [2016-03-23 Wed 11:42] \\
-    Waiting for Kira Poulson from HR to update Accounts recievable. Then I have to
-    put update pay the remaining amount
-** TODO VRPN-client for common lisp
-  - State "TODO"       from ""           [2016-03-04 Fri 15:34] \\
-    Make VRPN client for common lisp
-** DONE Introduce Masa masters thesis to CFD group
-   - State "DONE"       from "WAIT"       [2016-04-05 Tue 19:07] \\
-     They didnt seem to want that. They were looking for higherdimentional
-     plotting. Volume rendering seems to be more accurate for that.
-   - State "WAIT"       from "CURRENT"    [2016-03-24 Thu 14:08] \\
-     Waiting for a response from Matt
-   - State "CURRENT"    from "TODO"       [2016-03-24 Thu 14:07] \\
-     The cdf group had asked if I can do some data assimilation for them. I think
-     masa has already done something wrt this and I send them his work.
-** DONE Get CFD group to use tech viz
-   - State "DONE"       from "WAIT"       [2016-03-30 Wed 11:48] \\
-     Asked Josh to set up time with Matt for FV test
-   - State "WAIT"       from "CURRENT"    [2016-03-24 Thu 14:09] \\
-     Wrote email to Matt and waiting for response
-** TODO Write CEPL for CAVE
-** TODO Compile latest CEPL on mac
-** WAIT Get a working DEVIL library on mac
-   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 12:38] \\
-     This seems to a huge problem with brew. I might have to do this by myself. The
-     idea will be to build everything from scratch
-   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:56] \\
-     Error opening shared object "/usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib":
-       dlopen(/usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib, 10): Symbol not found: _png_set_gray_1_2_4_to_8
-       Referenced from: /usr/local/Cellar/devil/1.7.8_1/lib/libIL.dylib
-       Expected in: dynamic lookup
-   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:50] \\
-     Waiting to see if Cepl works
-   - State "CURRENT"    from "TODO"       [2016-03-30 Wed 11:49] \\
-     I simply uninstalled and reinstalled and it seems to have installed. Lets test
-     and see if cepl actually works
-
-** DONE Get rid of additional tution fees
-   - State "DONE"       from "WAIT"       [2016-03-30 Wed 12:39] \\
-     The tution is paid
-** DONE Set up meeting with Carrie
-   - State "DONE"       from "WAIT"       [2016-03-30 Wed 12:39] \\
-     Meeting is set for Monday April 4 10:30
-   - State "CURRENT"    from "TODO"       [2016-03-30 Wed 12:04] \\
-     This is posponed to next week cause she is busy this week
-   - State "WAIT"       from "CURRENT"    [2016-03-30 Wed 11:58] \\
-     Sent email waiting for response
-   - State "CURRENT"    from "TODO"       [2016-03-30 Wed 11:58] \\
-     need to get paperwork filed
-* WAIT Make a simple swig flag to generate packages
-  - State "WAIT"       from "CURRENT"    [2016-03-04 Fri 15:33] \\
-    Waiting to first get vrpn working without the need for swig
-  - State "CURRENT"    from "TODO"       [2016-03-04 Fri 15:09] \\
-    Writing swig module to autogenerate packages
-* TODO Make asdf file and write to it
-* TODO Make package file and write to it
-* TODO Make library file and write to is
-* TODO Commit swig package generation to swig project
-  :PROPERTIES:
-  :ID:       ef2af037-440a-4493-88c4-bb90827be31c
-  :END:
-  
-
-
-* April
-** 
-** WAIT DONE name vote
-   - State "WAIT"       from "CURRENT"    [2016-04-08 Fri 10:54] \\
-     Waiting for responses
-   - State "CURRENT"    from "TODO"       [2016-04-08 Fri 10:54] \\
-     Send people to vote on names
-** CANCELED Install rifts in the touch screens
-** WAIT Request quote for Middle VR.
-   - State "WAIT"       from "CURRENT"    [2016-04-08 Fri 11:06] \\
-     waiting on a response
-   - State "CURRENT"    from "TODO"       [2016-04-08 Fri 11:06] \\
-     Send email to sebastien for an updated quote
+* Year
+** March
+*** DONE Send Amy the videos of Collaboration
+    - State "CURRENT"    from "TODO"       [2017-03-29 Wed 10:41] \\
+      We took videos of the collaboration work during mechdyne visit. I sent those
+      to the group
+*** DONE VueNix
+**** DONE Configure Tiled Walls
+**** DONE Setup PetaLibrary
+**** DONE Setup the Configuration  on  diplayc
+*** DONE Performance document
+**** DONE Stress
+** FEB
+*** DONE Meet Katie and discuss meditation and her life
+*** Contact the committee personally and setup meeting
+    - Carolina .
+    - Dirk .
+    - Jan . 
+    - James .
+    - Jared 
+    - EJ
+    - Amy .
+    - Simon
+*** Replace vtkMolecule with own class
+*** Replace vtkCMLMoleculeReader with own class

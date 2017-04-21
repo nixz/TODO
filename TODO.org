@@ -1,93 +1,19 @@
-#+TODO: TODO(t) CURRENT(c@) WAIT(w@/!) | DONE(d@/!) CANCELED(c@)
+#+TODO: TODO(t) CURRENT(c@) WAIT(w@/!) | DONE(d@/!) CANCELED(x@)
 #+LAST_MOBILE_CHANGE: 2017-04-04 01:37:25
 
-* Daily
-** DONE JIRA Introduction
-   SCHEDULED: <2017-04-05 Wed 09:00>
-   :PROPERTIES:
-   :ID:       e0d672e7-5d57-4ea7-9295-94da5155e020
-   :END:
-   - State "DONE"       from "CURRENT"    [2017-04-05 Wed 12:47]
-   - Trillo
-   - Zenhub
-   - JIRA
-   - other project management tools
-** CANCELED Cave-to-Cave GA
-   SCHEDULED: <2017-04-05 Wed 10:00>
-   :PROPERTIES:
-   :ID:       d0d4a12a-23d3-4fc2-af5b-d8ce335d8302
-   :END:
 
-** DONE Investigate how to synchronize tasks with github
-   SCHEDULED: <2017-04-05 Wed>
-   :PROPERTIES:
-   :ID:       1440b8e0-e72f-4803-bdf7-c7af18d468db
-   :END:
-   - State "DONE"       from "TODO"       [2017-04-05 Wed 10:57] \\
-     Use org-sync
-** CURRENT Look at video to org-sync
-   SCHEDULED: <2017-04-05 Wed>
-   :PROPERTIES:
-   :ID:       82be5cc9-2cdc-417d-b09f-9d4fc2d494c5
-   :END:
-   - State "CURRENT"    from "TODO"       [2017-04-05 Wed 10:58] \\
-     http://orgmode.org/worg/org-contrib/gsoc2012/student-projects/org-sync/
-** DONE Viz needs for CFD
-   SCHEDULED: <2017-04-05 Wed 11:00>
-   :PROPERTIES:
-   :ID:       542d6dab-e53b-4341-be58-8c2a741d41ee
-   :END:
-   - State "DONE"       from "TODO"       [2017-04-05 Wed 12:47] \\
-     - We spoke about the 20'th deadline.
-     - Kyle will be working on the artistic rendering
-     - Andrew will give me the data after
-** DONE [#B] Ask Jared for minutes of last meeting
-   SCHEDULED: <2017-04-03 Mon>
-   :PROPERTIES:
-   :ID:       045810c8-4f3a-4f1f-9794-e3b5545d1fe6
-   :END:
-   - State "DONE"       from "WAIT"       [2017-04-05 Wed 12:49] \\
-     - Spoke to Jared face to face
-     - The second thing on the agenda (other than training) was github
-     - basically using github as a means to keep agendas
-     - Specify all you need as github feature requests
-   - State "WAIT"       from "TODO"       [2017-04-03 Mon 10:23] \\
-     Sent an email to Jared asking for a picture of his notes
-** CURRENT Put color into Masa dataset
-   SCHEDULED: <2017-04-04 Tue 10:30-16:30>
-   :PROPERTIES:
-   :ID:       260a22d1-df26-46e9-93be-fe111839b46f
-   :END:
-   - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:57] \\
-     Ther are many documetns that show the color. What I will do now is simply take
-     one file and try to fill in the color
+* Daily
 ** TODO [#A] Get Quote from Progressive
    SCHEDULED: <2017-04-04 Tue 16:30-17:00>
    :PROPERTIES:
    :ID:       f6b36167-d772-482a-88f2-d58673b37da4
    :END:
-   See if you can get the AutoPolicy renewed as well
+   See if you can get the AutoPolicy renewed as well.
+   - I tried it asked me to call them :(
 ** TODO [#C] Renew Auto Policy Progressive
    SCHEDULED: <2017-04-03 Mon>
    :PROPERTIES:
    :ID:       1876866f-5994-4aea-9712-ae866896016c
-   :END:
-** TODO [#A] Get Quote from Burns Insurance Laramie
-   SCHEDULED: <2017-04-04 Tue 17:00-17:30>
-   :PROPERTIES:
-   :ID:       df2d37e5-e6d3-4f25-8d94-efd540585d0d
-   :END:
-** WAIT Wait for the responce from seller about objection document
-   :PROPERTIES:
-   :ID:       f50522b1-ba22-445f-959d-7bfa05569720
-   :END:
-   - State "WAIT"       from "TODO"       [2017-04-03 Mon 13:50] \\
-     I filed out the objection document in Kelly's office. She said that she will
-     get back to me on Monday (today). So am waiting.
-** TODO [#B] Complete Tax Documents
-   SCHEDULED: <2017-04-04 Tue 17:30-18:00>
-   :PROPERTIES:
-   :ID:       b27393de-4a29-4519-9cb0-faf5aea11635
    :END:
 ** TODO [#C] Schedule meeting with Masa and team
    :PROPERTIES:
@@ -109,19 +35,33 @@
    :PROPERTIES:
    :ID:       51186507-905b-4130-952f-75b8d3fbfcda
    :END:
-** TODO Make VTK VRUI work in CAVE and tiled wall
+** CURRENT [#A] Prepare for demo on 25'th
+   SCHEDULED: <2017-04-10 Mon>
    :PROPERTIES:
-   :ID:       ceeae31f-fec1-4da4-842f-86fce649ab2f
+   :ID:       07fdd2c5-f4f9-4a93-a0f6-9aada5921601
    :END:
-** TODO [#A] Transfer money to Mariwati
-   SCHEDULED: <2017-04-05 Wed>
+   - State "CURRENT"    from "TODO"       [2017-04-10 Mon 13:54]
+*** WAIT [#A] Make VTK VRUI work in CAVE and tiled wall
+    SCHEDULED: <2017-04-11 Tue>
+    :PROPERTIES:
+    :ID:       ceeae31f-fec1-4da4-842f-86fce649ab2f
+    :END:
+   - State "CURRENT"    from "TODO"       [2017-04-10 Mon 09:03] \\
+     Installing VTK/VRUI in the CAVE and test some examples
+** CURRENT [#A] Mount /apps and /data into local machine
+    SCHEDULED: <2017-04-11 Tue>
+    :PROPERTIES:
+    :ID:       a57dfff0-f8d8-4bdd-a7aa-11f24675dcb4
+    :END:
+    - State "CURRENT"    from "TODO"       [2017-04-11 Tue 10:28] \\
+      Copy the stuff from masterb and put it here
+** CURRENT [#A] Remove logical volumes 
    :PROPERTIES:
-   :ID:       8178e1c9-7b3c-4881-aecc-6d968dcfae62
+   :ID:       8f7dfbbb-2cc4-49cc-bfc6-cdd7df013908
    :END:
-** TODO [#B] Get from Ilse on 15'th
-   SCHEDULED: <2017-04-15 Sat>
+** TODO [#A] Move local code and data /data and /apps
    :PROPERTIES:
-   :ID:       f7a252d2-3f90-4bef-a8cf-92499ee89a3b
+   :ID:       8c9f17b5-d1a9-455e-a9c1-cfb02ee215d8
    :END:
 ** TODO Go throught grant writing info from UW site
    :PROPERTIES:
@@ -196,21 +136,6 @@
    :PROPERTIES:
    :ID:       0d0a3fa1-cc84-4379-99c7-35b741468f88
    :END:
-** TODO Read Cognizant Paper 
-   SCHEDULED: <2017-04-07 Fri>
-   :PROPERTIES:
-   :ID:       b381b30a-ce11-4d0f-b9f2-e96271065e58
-   :END:
-   file:///home/nshetty/Downloads/data-science-how-the-marriage-of-technology-and-math-can-produce-actionable-results-codex1889.pdf
-** TODO Live Local Work Local (6-8)
-   SCHEDULED: <2017-04-11 Tue>
-   :PROPERTIES:
-   :ID:       4e484255-dd82-41d9-98c3-3f19eee49423
-   :END:
-** TODO [#A] Prepare for demo on 25'th
-   :PROPERTIES:
-   :ID:       07fdd2c5-f4f9-4a93-a0f6-9aada5921601
-   :END:
 ** TODO Prepare for Introduction to Viz for RMACC
    :PROPERTIES:
    :ID:       7115aa65-b417-4dfb-9679-74efb1c8bcbd
@@ -221,8 +146,216 @@
    :ID:       d206c1b1-9810-4af0-ae2c-3c52640f7e81
    :END:
    - Still up in the air. I might be more ready after the 25'th
-** DONE Reminder Email to EJ to talk to Peter
+** TODO Make a plan for VizBallandStick
+   :PROPERTIES:
+   :ID:       24b00ae4-eac8-4142-a074-4db98e1e095a
+   :END:
+** TODO Make a plan for VueNix
+   :PROPERTIES:
+   :ID:       a4d90f12-5235-4eb8-846b-6b834d1331f4
+   :END:
+** TODO Make a plan for cl-3d
+   :PROPERTIES:
+   :ID:       5455c56d-1320-4866-b292-5751890086e2
+   :END:
+** TODO book tickets 
+   :PROPERTIES:
+   :ID:       29065f7a-0ca2-424a-83e9-42252489acff
+   :END:
+** TODO Talk about shaders
+   SCHEDULED: <2017-04-28 Fri 15:00>
+   :PROPERTIES:
+   :ID:       f76eb78f-dd74-4e65-8716-33ce4844edc5
+   :END:
+** TODO Prepare for shaders talk
+   SCHEDULED: <2017-04-27 Thu>
+   :PROPERTIES:
+   :ID:       c1f49293-33be-4aa9-b716-9ced54c8c384
+   :END:
+
 * Week
+** DONE Install PV VTK VRUI and VRPN in /app 
+   SCHEDULED: <2017-04-20 Thu>
+   :PROPERTIES:
+   :ID:       450EE62B-4A00-4C3F-9116-54BA79832169
+   :END:
+** DONE Viz Tutorial Abstract for RMACC
+
+   - State "DONE"       from "WAIT"       [2017-04-20 Thu 18:26] \\
+     both kyle and ej gave good suggensitons
+** CANCELED [#A] Get Quote from Burns Insurance Laramie
+   SCHEDULED: <2017-04-04 Tue 17:00-17:30>
+   :PROPERTIES:
+   :ID:       df2d37e5-e6d3-4f25-8d94-efd540585d0d
+   :END:
+   - State "CANCELED"   from "CURRENT"    [2017-04-20 Thu 10:04] \\
+     just go with progressive for now
+** DONE [#B] Complete Tax Documents
+   SCHEDULED: <2017-04-04 Tue 17:30-18:00>
+   :PROPERTIES:
+   :ID:       b27393de-4a29-4519-9cb0-faf5aea11635
+   :END:
+** DONE [#B] Get from Ilse on 15'th
+   SCHEDULED: <2017-04-15 Sat>
+   :PROPERTIES:
+   :ID:       f7a252d2-3f90-4bef-a8cf-92499ee89a3b
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-20 Thu 10:03] \\
+     got it
+** DONE Karen (msource) needs personal documentation 
+   SCHEDULED: <2017-04-07 Fri>
+   :PROPERTIES:
+   :ID:       43bdc30e-6bf8-46b0-aaec-f8842852018a
+   :END:** DONE Ask Peter by when he would need the slides and summary (if any)
+   SCHEDULED: <2017-04-12 Wed>
+   :PROPERTIES:
+   :ID:       017371b5-f556-4d55-aa65-af18f53ad856
+   :END:
+** DONE Send EJ a one pager of elevator pitch
+   SCHEDULED: <2017-04-11 Tue>
+   :PROPERTIES:
+   :ID:       aa4f3056-875c-49f2-a968-67c2b3d73174
+   :END:
+** DONE Live Local Work Local (6-8)
+   SCHEDULED: <2017-04-11 Tue 18:00-20:00>
+   :PROPERTIES:
+   :ID:       4e484255-dd82-41d9-98c3-3f19eee49423
+   :END:
+** DONE Email Becca about list of documents
+   SCHEDULED: <2017-04-11 Tue>
+   :PROPERTIES:
+   :ID:       739bd1a0-bd16-41a1-b862-0e05f9b3355d
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-11 Tue 11:23] \\
+     Emailed Becca asking for checklist of documentation
+** DONE Send Mike ipaddress and mac to add to the petalibrary
+    SCHEDULED: <2017-04-10 Mon>
+    :PROPERTIES:
+    :ID:       56252450-2588-426a-87c3-6425c4f7aa38
+    :END:
+    - State "DONE"       from "TODO"       [2017-04-10 Mon 14:00] \\
+      Send the ip address to to added to peta
+** DONE Update Timesheet and return
+   SCHEDULED: <2017-04-10 Mon>
+   :PROPERTIES:
+   :ID:       ee1722d5-7b50-459c-8725-048f139318c8
+   :END:
+   - State "DONE"       from "CURRENT"    [2017-04-11 Tue 10:32] \\
+     Send the updated timesheet with 1.5 hours on 30March
+   - State "CURRENT"    from "TODO"       [2017-04-10 Mon 13:55] \\
+     March 30'th timesheet to 1.5hrs
+** DONE Read Cognizant Paper 
+   SCHEDULED: <2017-04-07 Fri>
+   :PROPERTIES:
+   :ID:       b381b30a-ce11-4d0f-b9f2-e96271065e58
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-10 Mon 13:47] \\
+     That was not for this week :P. Was a bunch load of grabage anyway
+   file:///home/nshetty/Downloads/data-science-how-the-marriage-of-technology-and-math-can-produce-actionable-results-codex1889.pdf
+** DONE Wait for the responce from seller about objection document
+   :PROPERTIES:
+   :ID:       f50522b1-ba22-445f-959d-7bfa05569720
+   :END:
+   - State "DONE"       from "WAIT"       [2017-04-11 Tue 08:32] \\
+     The seller accepted but wanted to share the cost of the chimney
+   - State "WAIT"       from "TODO"       [2017-04-03 Mon 13:50] \\
+     I filed out the objection document in Kelly's office. She said that she will
+     get back to me on Monday (today). So am waiting.
+** DONE [#A] Transfer money to Mariwati
+   SCHEDULED: <2017-04-05 Wed>
+   :PROPERTIES:
+   :ID:       8178e1c9-7b3c-4881-aecc-6d968dcfae62
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-06 Thu 09:48] \\
+     Transfered with one day delay
+** DONE Org-mobile-sync auto
+   :PROPERTIES:
+   :ID:       fa761995-f237-41c3-8897-fad3338c1f19
+   :END:
+   - State "DONE"       from "WAIT"       [2017-04-06 Thu 11:03] \\
+     replaced custom code with the folling lines
+     
+     (require 'org-mobile-sync)
+     (org-mobile-sync-mode 1)
+** DONE Reminder Email to EJ to talk to Peter
+** DONE Install and use org-sync
+   SCHEDULED: <2017-04-06 Thu>
+   :PROPERTIES:
+   :ID:       8176509c-b049-47a8-8de0-d1c5510ba6ac
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-06 Thu 10:26] \\
+     - I am using org-sync for each project. 
+     - Made a project for VizBallandStick and imported issues
+     - Need to fill out the issues and work with it
+
+** DONE JIRA Introduction
+   SCHEDULED: <2017-04-05 Wed 09:00>
+   :PROPERTIES:
+   :ID:       e0d672e7-5d57-4ea7-9295-94da5155e020
+   :END:
+   - State "DONE"       from "CURRENT"    [2017-04-05 Wed 12:47]
+   - Trillo
+   - Zenhub
+   - JIRA
+   - other project management tools
+** CANCELED Cave-to-Cave GA
+   SCHEDULED: <2017-04-05 Wed 10:00>
+   :PROPERTIES:
+   :ID:       d0d4a12a-23d3-4fc2-af5b-d8ce335d8302
+   :END:
+
+** DONE Investigate how to synchronize tasks with github
+   SCHEDULED: <2017-04-05 Wed>
+   :PROPERTIES:
+   :ID:       1440b8e0-e72f-4803-bdf7-c7af18d468db
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 10:57] \\
+     Use org-sync
+** DONE Look at video to org-sync
+   SCHEDULED: <2017-04-05 Wed>
+   :PROPERTIES:
+   :ID:       82be5cc9-2cdc-417d-b09f-9d4fc2d494c5
+   :END:
+   - State "DONE"       from "CURRENT"    [2017-04-05 Wed 13:50] \\
+     The video is good and easy.
+     
+     - I need to initialize github-backend cause it doesnt seem to find it
+     - Did a few experiemnets which didnt work
+     - I may have to update from git repo instead of using emacs package-manager
+   - State "CURRENT"    from "TODO"       [2017-04-05 Wed 10:58] \\
+     http://orgmode.org/worg/org-contrib/gsoc2012/student-projects/org-sync/
+** DONE Viz needs for CFD
+   SCHEDULED: <2017-04-05 Wed 11:00>
+   :PROPERTIES:
+   :ID:       542d6dab-e53b-4341-be58-8c2a741d41ee
+   :END:
+   - State "DONE"       from "TODO"       [2017-04-05 Wed 12:47] \\
+     - We spoke about the 20'th deadline.
+     - Kyle will be working on the artistic rendering
+     - Andrew will give me the data after
+** DONE [#B] Ask Jared for minutes of last meeting
+   SCHEDULED: <2017-04-03 Mon>
+   :PROPERTIES:
+   :ID:       045810c8-4f3a-4f1f-9794-e3b5545d1fe6
+   :END:
+   - State "DONE"       from "WAIT"       [2017-04-05 Wed 12:49] \\
+     - Spoke to Jared face to face
+     - The second thing on the agenda (other than training) was github
+     - basically using github as a means to keep agendas
+     - Specify all you need as github feature requests
+   - State "WAIT"       from "TODO"       [2017-04-03 Mon 10:23] \\
+     Sent an email to Jared asking for a picture of his notes
+** CANCELED Put color into Masa dataset
+   SCHEDULED: <2017-04-04 Tue 10:30-16:30>
+   :PROPERTIES:
+   :ID:       260a22d1-df26-46e9-93be-fe111839b46f
+   :END:
+   - State "CANCELED"   from "CURRENT"    [2017-04-06 Thu 10:41] \\
+     This task is moved to into the VisBallAndStickProject
+   - State "CURRENT"    from "TODO"       [2017-04-02 Sun 16:57] \\
+     Ther are many documetns that show the color. What I will do now is simply take
+     one file and try to fill in the color
+
 ** DONE [#A] Work on using dropbox to synchronize between documents
    SCHEDULED: <2017-04-03 Mon>
 :PROPERTIES:

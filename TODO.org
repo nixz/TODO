@@ -206,7 +206,8 @@
    SCHEDULED: <2017-04-07 Fri>
    :PROPERTIES:
    :ID:       43bdc30e-6bf8-46b0-aaec-f8842852018a
-   :END:** DONE Ask Peter by when he would need the slides and summary (if any)
+   :END:
+** DONE Ask Peter by when he would need the slides and summary (if any)
    SCHEDULED: <2017-04-12 Wed>
    :PROPERTIES:
    :ID:       017371b5-f556-4d55-aa65-af18f53ad856
